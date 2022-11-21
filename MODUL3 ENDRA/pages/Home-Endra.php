@@ -13,10 +13,10 @@
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav me-auto mb-2 mb-md-0">
               <li class="nav-active">
-                <a class="nav-link" aria-current="page" href="#Home">Home</a>
+                <a class="nav-link" aria-current="page" href="../MODUL3-ENDRA/pages/Home-Endra.php">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#MyCar">MyCar</a>
+                <a class="nav-link" href="../MODUL3-ENDRA/pages/Add-Endra.php">MyCar</a>
               </li>
             </ul>
           </div>
@@ -36,12 +36,12 @@
               </p>
               <br />
               <div class="pb-3">
-                <button type="button" class="btn btn-primary">My Car</button>
+                <button type="submit" class="btn btn-primary" href="../MODUL3-ENDRA/pages/Add-Endra.php">My Car</button>
               </div>
             </div>
             <div class="row">
               <div class="col-md-6 themed-grid-col">
-                <img src="/Applications/XAMPP/xamppfiles/htdocs/MODUL3-ENDRA/asset/images/logo-ead.png" width="150px" />
+                <img src="../MODUL3-ENDRA/asset/images/logo-ead.png" width="150px" />
               </div>
               <div class="col-md-6 themed-grid-col text-muted">
                 <p>Raden Endra Wijaya_1202204300</p>
@@ -49,7 +49,7 @@
             </div>
           </div>
           <div class="col-md-4 themed-grid-col">
-            <img src="/Applications/XAMPP/xamppfiles/htdocs/MODUL3-ENDRA/asset/images/corolla.png" />
+            <img src="../MODUL3-ENDRA/asset/images/corolla.png" />
           </div>
         </div>
       </div>

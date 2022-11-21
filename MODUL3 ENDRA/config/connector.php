@@ -1,9 +1,6 @@
 <?php
+$connector = new mysqli("127.0.0.1". ":" . "8080", "root", "", "modul3");
 
-
-$connect = mysqli_connect("localhost:8080", "root", "", "showroom_endra_table");
-
-if (!$connect) {
-    die("Connection failed: " . mysqli_connect_error($connect));
+if (!$connector) {
+  die("Koneksi Error: " . $connector->connect_error);
 }
-?>

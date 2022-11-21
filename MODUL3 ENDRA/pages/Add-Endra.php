@@ -13,7 +13,7 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <ul class="navbar-nav me-auto mb-2 mb-md-0">
                     <li class="nav-active">
-                        <a class="nav-link" aria-current="page" href="#Home">Home</a>
+                        <a class="nav-link" aria-current="page" href="../pages/Home-Endra.php">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#MyCar">MyCar</a>
@@ -34,46 +34,46 @@
                     <label for="namamobil" class="form-label">
                     Nama Mobil
                     </label>
-                    <input type="text" class="form-control" placeholder="Nama Mobil" id="nama_mobil">
+                    <input type="text" class="form-control" placeholder="Nama Mobil" name="nama_mobil">
                 </div>
                 <div class="mb-3">
                     <label for="namapemilik" class="form-label">
                     Nama Pemilik
                     </label>
-                    <input type="text" class="form-control" placeholder="Nama Pemilik" id="nama_pemilik">
+                    <input type="text" class="form-control" placeholder="Nama Pemilik" name="nama_pemilik">
                 </div>
                 <div class="mb-3">
                     <label for="merk" class="form-label">
                     Merk
                     </label>
-                    <input type="text" class="form-control" placeholder="Merk" id="merk_mobil">
+                    <input type="text" class="form-control" placeholder="Merk" name="merk_mobil">
                 </div>
                 <div class="mb-3">
                     <label for="tanggalbeli" class="form-label">
                     Tanggal Beli
                     </label>
-                    <input type="date" class="form-control" placeholder="DD-MM_YYYY" id="tanggal_beli">
+                    <input type="date" class="form-control" placeholder="DD-MM_YYYY" name="tanggal_beli">
                 </div>
                 <div class="mb-3">
                     <label for="deskripsi" class="form-label">
                     Deskripsi
                     </label>
-                    <textarea class="form-contro1" rows="3" id="deskripsi">
+                    <textarea class="form-contro1" rows="3" name="deskripsi">
                     </textarea>
                 </div>
                 <div class="mb-3">
                     <label for="foto" class="form-label">
                     Foto
                     </label>
-                    <input type="file" class="form-control" placeholder="Upload Gambar" id="foto_mobil">
+                    <input type="file" class="form-control" placeholder="Upload Gambar" name="foto_mobil">
                 </div>
                 <div class="mb-3">
                     <label for="status" class="form-label">
                     Status Pembayaran
                     </label>
                     <label>
-                        <input type="radio" id="status_pembayaran" value="L">Lunas
-                        <input type="radio" id="status_pembayaran" value="BL">Belum Lunas
+                        <input type="radio" name="status_pembayaran" value="L">Lunas
+                        <input type="radio" name="status_pembayaran" value="BL">Belum Lunas
                     </label>
                 </div>
                 <button type="submit" class="btn btn-primary">Simpan</button>
