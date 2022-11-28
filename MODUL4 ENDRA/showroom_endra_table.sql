@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Nov 20, 2022 at 10:44 AM
+-- Generation Time: Nov 28, 2022 at 02:33 AM
 -- Server version: 10.4.21-MariaDB
 -- PHP Version: 8.1.6
 
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `modul3`
+-- Database: `wad_modul4_endra`
 --
 
 -- --------------------------------------------------------
@@ -39,6 +39,13 @@ CREATE TABLE `showroom_endra_table` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
+-- Dumping data for table `showroom_endra_table`
+--
+
+INSERT INTO `showroom_endra_table` (`id_mobil`, `nama_mobil`, `pemilik_mobil`, `merk_mobil`, `tanggal_beli`, `deskripsi`, `foto_mobil`, `status_pembayaran`) VALUES
+(1794559951, 'corolla', 'endra', 'toyota', '2022-11-27', 'asda', 'corolla.png', 'L');
+
+--
 -- Indexes for dumped tables
 --
 
@@ -56,7 +63,7 @@ ALTER TABLE `showroom_endra_table`
 -- AUTO_INCREMENT for table `showroom_endra_table`
 --
 ALTER TABLE `showroom_endra_table`
-  MODIFY `id_mobil` int(255) NOT NULL AUTO_INCREMENT;
+  MODIFY `id_mobil` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1794559952;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

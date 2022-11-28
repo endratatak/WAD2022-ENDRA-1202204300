@@ -3,7 +3,6 @@ include('../config/connector.php');
 
 $id = $_GET['id_mobil'];
 
-// BISAAAAA
 $sql = "DELETE FROM showroom_endra_table WHERE id_mobil = $id";
 
 if (mysqli_query($connect, $sql)) {

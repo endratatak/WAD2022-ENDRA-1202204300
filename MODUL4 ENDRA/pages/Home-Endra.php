@@ -7,7 +7,6 @@
 ?>
 
 
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -66,7 +65,7 @@
             </div>
             <div class="row">
               <div class="col-md-6 themed-grid-col">
-                <img src="../MODUL3-ENDRA/asset/images/logo-ead.png" width="150px" />
+                <img src="../MODUL4-ENDRA/asset/images/logo-ead.png" width="150px" />
               </div>
               <div class="col-md-6 themed-grid-col text-muted">
                 <p>Raden Endra Wijaya_1202204300</p>
@@ -74,12 +73,10 @@
             </div>
           </div>
           <div class="col-md-4 themed-grid-col">
-            <img src="../MODUL3-ENDRA/asset/images/corolla.png" />
+            <img src="../MODUL4-ENDRA/asset/images/corolla.png" />
           </div>
         </div>
       </div>
     </main>
-    <script src="/Users/endratatak/Desktop/Kuliah/bootstrap-5.2.2-dist/js/bootstrap.bundle.min.js"></script>
-    <script src="/Users/endratatak/Desktop/Kuliah/bootstrap-5.2.2-dist/popper.min.js"></script>
   </body>
 </html>

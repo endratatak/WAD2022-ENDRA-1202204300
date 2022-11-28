@@ -1,3 +1,3 @@
 <?php
 
-require 'pages/Home-Endra.php';
+require 'pages/Register-Endra.php';

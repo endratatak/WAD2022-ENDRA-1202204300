@@ -14,7 +14,7 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-6">
-                <form action="" method = "post" enctype="multipart/form-data">
+                <form action="../config/login.php" method = "post" enctype="multipart/form-data">
                     <h1>Login</h1>
                     <div class="mb-3">
                         <label for="email" class="form-label">
@@ -41,7 +41,5 @@
             </div>
         </div>
     </div>
-    <script src="/Users/endratatak/Desktop/Kuliah/bootstrap-5.2.2-dist/js/bootstrap.bundle.min.js"></script>
-    <script src="/Users/endratatak/Desktop/Kuliah/bootstrap-5.2.2-dist/popper.min.js"></script>
   </body>
 </html>
